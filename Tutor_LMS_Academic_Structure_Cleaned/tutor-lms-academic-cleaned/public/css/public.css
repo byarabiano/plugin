@@ -1,0 +1,103 @@
+/* Tutor LMS Academic Pro - Public Styles */
+.tlms-registration-fields {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+.tlms-registration-fields h3 {
+    margin-top: 0;
+    color: #2c3e50;
+    border-bottom: 2px solid #3e64de;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tlms-category-level {
+    margin-bottom: 15px;
+    animation: fadeIn 0.3s ease-in;
+}
+
+.tlms-category-level label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #2c3e50;
+    font-size: 14px;
+}
+
+.tlms-category-level select {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 12px;
+    border: 1px solid #dcdfe5;
+    border-radius: 6px;
+    background: #fff;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    color: #393e46;
+}
+
+.tlms-category-level select:focus {
+    border-color: #3e64de;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(62, 100, 222, 0.1);
+}
+
+.tlms-loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #3e64de;
+    border-radius: 50%;
+    animation: tlms-spin 1s linear infinite;
+    margin-left: 10px;
+}
+
+@keyframes tlms-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* تحسين التوافق مع تصميم Tutor LMS */
+.tutor-form-group .tlms-category-level {
+    margin-bottom: 20px;
+}
+
+.tutor-form-control:focus {
+    border-color: #3e64de;
+    box-shadow: 0 0 0 3px rgba(62, 100, 222, 0.1);
+}
+
+/* رسائل الخطأ */
+.tlms-field-error {
+    border-color: #ff5252 !important;
+}
+
+.tlms-error-message {
+    color: #ff5252;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+}
+
+/* التصميم المتجاوب */
+@media (max-width: 768px) {
+    .tlms-registration-fields {
+        padding: 15px;
+        margin: 15px 0;
+    }
+    
+    .tlms-category-level select {
+        max-width: 100%;
+    }
+}

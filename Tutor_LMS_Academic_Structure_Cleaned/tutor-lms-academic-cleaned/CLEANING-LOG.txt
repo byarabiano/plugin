@@ -1,0 +1,6 @@
+Cleaning performed on plugin files:
+- Added ABSPATH protection to 12 files.
+- Removed 6 suspected unused/duplicated files or empty dirs:
+  ['includes/class-custom-taxonomies-disabled.php', 'includes/class-custom-taxonomies.php', 'includes/class-course-filter.php', 'assets/academic-structure.png - Ü∩τφδí ƒΘó¡δ∩σƒó ƒΘÜΦƒº∩Ω∩í.txt', 'assets/icons', 'assets/images']
+- Added includes/class-loader.php to manage class loading.
+- Ensured main plugin file includes an early ABSPATH check and loader require.
