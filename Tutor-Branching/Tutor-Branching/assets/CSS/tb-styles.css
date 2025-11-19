@@ -1,0 +1,21 @@
+/* tb-styles.css - أساسي لتنسيق واجهة Tutor Branching في لوحة التحكم */
+.tb-admin-wrap {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+}
+.tb-form-table th, .tb-form-table td {
+    vertical-align: middle;
+}
+.tb-button {
+    background-color: #21759b;
+    color: #fff;
+    border: 0;
+    padding: 8px 14px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.tb-button.secondary {
+    background-color: #555;
+}

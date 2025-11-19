@@ -1,0 +1,47 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Loco Demo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-28 23:03+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Loco-Source-Locale: ar_EG\n"
+"X-Generator: Poedit 3.4.4\n"
+
+msgctxt "Tutor Branching"
+msgid "Tutor Branching"
+msgstr ""
+
+msgctxt "الوصف"
+msgid "Description"
+msgstr ""
+
+msgctxt "إدارة الكليات والتصنيفات"
+msgid "Manage faculties and categories"
+msgstr ""
+
+msgctxt "إضافة الكلية"
+msgid "Add Faculty"
+msgstr ""
+
+msgctxt "اسم الكلية"
+msgid "Faculty Name"
+msgstr ""
+
+msgctxt "الوصف (اختياري)"
+msgid "Description (optional)"
+msgstr ""
+
+msgctxt "إعدادات Tutor Branching"
+msgid "Tutor Branching Settings"
+msgstr ""
+
+msgctxt "إدارة الكليات والتصنيفات"
+msgid "Manage faculties and classifications"
+msgstr ""
