@@ -1,0 +1,162 @@
+/* Tutor LMS Academic Pro - Public Styles */
+.tlms-registration-fields {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+.tlms-registration-fields h3 {
+    margin-top: 0;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.tlms-category-level {
+    margin-bottom: 15px;
+    animation: fadeIn 0.3s ease-in;
+}
+
+.tlms-category-level label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.tlms-category-level select {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px 12px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    background: #fff;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+.tlms-category-level select:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+
+.tlms-loading {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #3498db;
+    border-radius: 50%;
+    animation: tlms-spin 1s linear infinite;
+    margin-left: 10px;
+}
+
+@keyframes tlms-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Profile Page Styles */
+.tlms-profile-fields {
+    margin: 20px 0;
+}
+
+.tlms-profile-fields h3 {
+    color: #2c3e50;
+    border-bottom: 1px solid #ecf0f1;
+    padding-bottom: 10px;
+}
+
+/* Course Visibility Messages */
+.tlms-access-denied {
+    background: #e74c3c;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.tlms-access-denied h2 {
+    margin-top: 0;
+}
+
+.tlms-suggested-courses {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .tlms-registration-fields {
+        padding: 15px;
+        margin: 15px 0;
+    }
+    
+    .tlms-category-level select {
+        max-width: 100%;
+    }
+}
+
+/* Error States */
+.tlms-field-error {
+    border-color: #e74c3c !important;
+}
+
+.tlms-error-message {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Success States */
+.tlms-field-success {
+    border-color: #27ae60 !important;
+}
+
+.tlms-success-message {
+    color: #27ae60;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+}
+
+/* Course Filter Styles */
+.tlms-course-filters {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.tlms-filter-group {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.tlms-filter-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.tlms-filter-group select {
+    padding: 6px 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    background: #fff;
+}
